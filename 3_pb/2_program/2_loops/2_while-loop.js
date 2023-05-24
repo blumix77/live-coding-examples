@@ -73,7 +73,7 @@ console.log("==============");
 
 // Der do/while loop ist eine variante des while-loops, der erst den codeblock ausführt, und danach prüft ob die kondition zutrifft.
 // Das folgende beispiel wird also MINDESTENS 1 mal ausgeführt, auch wenn die kondition NICHT zutrifft:
-let counterDoWhile = 8;
+let counterDoWhile = 1;
 
 do
 {

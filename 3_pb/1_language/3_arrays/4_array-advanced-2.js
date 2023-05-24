@@ -75,7 +75,7 @@ const specificNumberList = numbers.map((number, i) =>
     return number;
 });
 
-console.log(specificNumberList);
+console.log("specific Number List", specificNumberList);
 
 console.log('='.repeat(50));
 
@@ -313,8 +313,8 @@ const sortableObjectArray =
 ];
 
 const newSortableArray = sortableObjectArray.sort((a, b) => a.age - b.age);
-console.log(sortableObjectArray);
-console.log(newSortableArray);
+console.log("sortableObjectArray",sortableObjectArray);
+console.log("newSortableArray", newSortableArray);
 
 newSortableArray.sort((a, b) =>
 {
@@ -333,4 +333,4 @@ newSortableArray.sort((a, b) =>
 
     return 0;
 });
-console.log(newSortableArray);
+console.log("newSortableArray", newSortableArray);

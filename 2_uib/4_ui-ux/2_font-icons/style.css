@@ -27,6 +27,11 @@ body
     margin-right: 10px;
 }
 
+.box .fa-location-dot {
+    font-size: 2em;
+    color: black;
+}
+
 .eigenes-symbol
 {
     font-size: 32px;
